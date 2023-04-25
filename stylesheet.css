@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+ .container{
+    border: 2px solid #000000;
+    border-radius: 10px;
+    width:40%;
+    padding: 30px;
+    background-color: #989898;
+ }
+ .card{
+    border: 3px solid #000000;
+    border-radius: 15px;
+    padding: 40px;
+    width:100%;
+   
+ }
+ .content{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 600;
+ }
+ .show{
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+    color:red;
+    margin: 15px 0;
+    border: 1px solid #000000;
+    padding: 10px;
+    background-color: #e2e2e2;
+    border-radius: 10px;
+    font-weight: 600;
+ }
+.show1{
+    display:inline-block;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    font-size: 10px;
+    margin-right: 10px;
+    width: 80px;
+    height: 50px;
+}
+.row1{
+    display: flex;
+    text-align: center;
+    padding-bottom: 30px;
+}
+ /* #date{
+    padding: 10px 35px;
+    color:red;
+    border:2px solid#000000;
+    font-size: 22px;
+   
+ }
+ #month{
+    padding: 10px 35px;
+    color:red;
+    border:2px solid#000000;
+    font-size: 22px;
+ }
+ #year{
+    padding: 10px 35px;
+    color:red;
+    border:2px solid#000000;
+    font-size: 22px;
+ }
+
+ #hr{
+    padding: 10px 35px;
+    color:red;
+    border:2px solid#000000;
+    font-size: 22px;
+ }
+ #min{
+    padding: 10px 35px;
+    color:red;
+    border:2px solid#000000;
+    font-size: 22px;
+
+ }
+ #sec{
+    padding: 10px 35px;
+    color:red;
+    border:2px solid#000000;
+    font-size: 22px;
+ } */
+.row {
+    width: 100%;
+}
+input{
+	accent-color:red;
+}
+.row2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 14px;
+}
+
+@media(max-width:456px){
+	.container{
+    width:100%;
+ }
+ .show1{
+    font-size: 6px;
+ }
+}
+@media(min-width:720px){
+	.container{
+    width:100%;
+ }
+}
+@media(min-width:1020px){
+	.container{
+    width:50%;
+    margin: auto;
+ }
+} 
